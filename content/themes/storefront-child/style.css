@@ -8,3 +8,9 @@ License URI:  https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain:  storefront
 Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
 */
+
+
+/*shop button style*/
+.product_type_simple, .product_type_variable  {
+    background-color: #EC752D;
+}
