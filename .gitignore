@@ -7,12 +7,13 @@
 # WordPress configuration
 /wp-config.php
 
-# # Plugins
-# /content/plugins
+# Plugins
+/content/plugins/akismet
+/content/plugins/query-monitor
 
 
-# # Thèmes
-# /content/themes
+# Thèmes
+/content/themes/twentytwenty
 
 # wp-content
 /content/languages
