@@ -16,7 +16,11 @@ add_action('add_meta_boxes', 'init_metabox');
  */
 function init_metabox()
 {
-    add_meta_box('box_message', 'box message', 'htmlContent', 'page', 'side');
+    global $post;
+    $slug = $post->post_name;
+    if ($slug == 'my-account' || $slug == 'mon-compte') {
+        add_meta_box('box_message', 'box message', 'htmlContent', 'page', 'side');
+    }
 }
 
 /**
