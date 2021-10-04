@@ -1,0 +1,20 @@
+# Composer
+/vendor
+
+# WordPress Core
+/wordpress
+
+# WordPress configuration
+/wp-config.php
+
+# # Plugins
+# /content/plugins
+
+
+# # Thèmes
+# /content/themes
+
+# wp-content
+/content/languages
+/content/upgrade
+/content/uploads
