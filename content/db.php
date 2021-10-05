@@ -1,0 +1,1 @@
+/var/www/html/woo_shop/content/plugins/query-monitor/wp-content/db.php
