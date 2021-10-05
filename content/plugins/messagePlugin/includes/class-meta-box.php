@@ -11,10 +11,7 @@ abstract class MetaBox
      */
     public static function init_metabox()
     {
-        global $post;
-        $slug = $post->post_name;
-
-        if ($slug == 'my-account' || $slug == 'mon-compte') {
+        if (basename(get_permalink()) == 'my-account' || basename(get_permalink()) == 'mon-compte') {
             add_meta_box('box_message', 'box message', [self::class, 'htmlContent'], 'page', 'side');
         }
     }
