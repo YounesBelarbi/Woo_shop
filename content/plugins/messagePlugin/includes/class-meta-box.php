@@ -67,5 +67,10 @@ if (!class_exists('MetaBox')) {
             <p class="custom_box_message"><?= get_post_meta(9, 'box_message', true) ?></p>
 <?php
         }
+
+        public static function deleteDatabox()
+        {
+            delete_post_meta(9, 'box_message');
+        }
     }
 }
