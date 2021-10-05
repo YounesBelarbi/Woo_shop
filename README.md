@@ -4,11 +4,11 @@
 # Installation
 
 - Dépendances : ``Composer install``
-- Base de données : configuration dans le fichier ``wp-config.php``
-    -informations de la base de données
-    -clé d'authentification et de salage
-    -url worpdress
-    -mode debug
+- Base de données : configuration dans le fichier ``wp-config.php``  
+    -informations de la base de données  
+    -clé d'authentification et de salage  
+    -url worpdress  
+    -mode debug  
     -environnement 
 
 # Informations complémentaires
