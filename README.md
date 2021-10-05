@@ -1,7 +1,7 @@
-#Woo shop
+# Woo shop
 
 
-#Installation
+# Installation
 
 - Dépendances : ``Composer install``
 - Base de données : configuration dans le fichier ``wp-config.php``
@@ -11,13 +11,14 @@
     -mode debug
     -environnement 
 
-#Informations complémentaires
+# Informations complémentaires
 
 Export BDD dans le dossier ``/sql_database``.
 
-Nom de domaine instance local : ``http://localhost/woo_shop``
-Accès à l'admin http://localhost/woo_shop/wordpress/wp-admin
-identifiant : ``woo_shop``
+Nom de domaine instance local : ``http://localhost/woo_shop``  
+
+Accès à l'admin http://localhost/woo_shop/wordpress/wp-admin    
+identifiant : ``woo_shop``  
 Mot de passe : ``woo_shop``
 
 Plugins installés : Query Monitor
