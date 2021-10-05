@@ -5,6 +5,10 @@ Plugin Name: messagePlugin
 Description: Plugin to display message in my account page.
 */
 
+if (!defined('WPINC')) {
+    die();
+}
+
 
 require plugin_dir_path(__FILE__) . 'includes/class-meta-box.php';
 
