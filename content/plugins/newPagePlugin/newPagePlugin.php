@@ -20,7 +20,7 @@ register_deactivation_hook(__FILE__, [$newPost, 'deactivation']);
 // new page style
 function my_theme_enqueue_styles()
 {
-    wp_enqueue_style('yourplugin-front', plugins_url('style.css', __FILE__));
+    wp_enqueue_style('yourplugin-front', plugins_url('/public/css/style.css', __FILE__));
 }
 
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
