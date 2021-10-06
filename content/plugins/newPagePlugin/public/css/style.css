@@ -1,0 +1,16 @@
+
+.ananas_form_choice_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ananas_form_choice_container_item {
+    display: inline;
+    background-color: #f2f2f2;
+    width: 10%;
+    text-align: center;
+}
+
+.ananas_form_submit {
+    margin-top: 10px;
+}
