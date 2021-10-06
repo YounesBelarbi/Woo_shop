@@ -8,7 +8,6 @@ if (!class_exists('AnanasPage')) {
         public function activation()
         {
             $this->createPost();
-            flush_rewrite_rules();
         }
 
         public function createPost()
